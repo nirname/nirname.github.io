@@ -1,48 +1,7 @@
 ---
 ---
 
-<style>
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-  }
-  .skill {
-    wdith: 80px;
-    height: 80px;
-  }
-  .skill img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .contact:before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    margin-right: 5px;
-  }
-
-  .contact {
-    display: flex;
-    align-items: center;
-  }
-
-  .contact.calendly:before {
-    background-image: url("https://simpleicons.org/icons/calendly.svg");
-  }
-  .contact.linkedin:before {
-    background-image: url("https://simpleicons.org/icons/linkedin.svg");
-  }
-
-  /* .skills img {
-    filter: invert(1);
-  } */
-</style>
+<link rel="stylesheet" href="./styles/index.css">
 
 <!-- [![](https://visitcount.itsvg.in/api?id=nirname&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in) -->
 
@@ -58,9 +17,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 ## Contacts
 
-
 <a href="https://calendy.com/nirname" class="contact calendly">Calendly</a>
-
 <a href="https://www.linkedin.com/in/nirname" class="contact linkedin">Linked In</a>
 
 ## Skills
@@ -94,7 +51,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <div class="skill"> <img src="https://simpleicons.org/icons/d3dotjs.svg"          >  <div>D3               </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/swagger.svg"          >  <div>Swagger          </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/k6.svg"               >  <div>K6               </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/apache.svg"           >  <div>Apache Benchmark </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/apache.svg"           >  <div>Apache<br>Benchmark</div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/mermaid.svg"          >  <div>Mermaid JS       </div></div>
 </div>
 
