@@ -51,7 +51,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img src="https://simpleicons.org/icons/d3dotjs.svg"          ><figcaption>D3                   </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/swagger.svg"          ><figcaption>Swagger              </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/k6.svg"               ><figcaption>K6                   </figcaption></figure>
-<figure class="tile"><img src="https://simpleicons.org/icons/apache.svg"           ><figcaption>Apache Benchmark  </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/apache.svg"           ><figcaption>Apache Benchmark     </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/mermaid.svg"          ><figcaption>Mermaid JS           </figcaption></figure>
 </div>
 
