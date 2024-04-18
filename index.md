@@ -59,9 +59,9 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 ## Contacts
 
 
-<a href=https://calendy.com/nirname class="contact calendly">calendly</a>
+<a href="https://calendy.com/nirname" class="contact calendly">Calendly</a>
 
-<a href="https://www.linkedin.com/in/nirname/" class="contact linkedin">LinkedIn</a>
+<a href="https://www.linkedin.com/in/nirname" class="contact linkedin">Linked In</a>
 
 ## Skills
 
@@ -108,10 +108,9 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 I love creating parsers, 3d modelling, and data visualization.
 
-Know a little bit of
+Can do a little bit of
 **Fusion360**,
 **SketchUp**,
 **3dsMax**,
 **Unity**,
 **Graphviz**.
-
