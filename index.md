@@ -38,7 +38,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <img src="https://img.shields.io/badge/Data_visuzlization-1cb08f?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Computer_graphics-d62828?style=flat-square" height=24 />
 
-Recently I started contributing to open source ([mermaid-js](https://github.com/mermaid-js/mermaid)).
+[Mermaid JS](https://github.com/mermaid-js/mermaid) contributor.
 
 ## Skills
 
@@ -50,7 +50,7 @@ Recently I started contributing to open source ([mermaid-js](https://github.com/
 <div class="skill"> <img src="https://simpleicons.org/icons/git.svg"              >  <div>Git              </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/docker.svg"           >  <div>Docker           </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/postgresql.svg"       >  <div>Postgres         </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/redis.svg"            >  <div>Redis            </div></div>
+<div class="skill"> <img src="./icons/redis.svg"                                  >  <div>Redis            </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/nginx.svg"            >  <div>NGinx            </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/linux.svg"            >  <div>Linux            </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/github.svg"           >  <div>Github           </div></div>
