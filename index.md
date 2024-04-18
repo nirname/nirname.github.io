@@ -18,8 +18,6 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 ## Contacts
 
 <address>
-
-<address>
 <a href="mailto:nironame@gmail.com" class="gmail">Gmail</a>
 <a href="https://github.com/nirname" class="github">GitHub</a>
 <a href="https://calendy.com/nirname" class="calendly">Calendly</a>
