@@ -6,7 +6,6 @@
     filter: invert(1);
   } */
 </style>
-<div align="left">
 
 # My name is Nick
 
@@ -61,6 +60,4 @@ Recently I started contributing to open source ([mermaid-js](https://github.com/
 <div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/swagger.svg"          width="50" height="50">  <div>Swagger          </div></div>
 <div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/k6.svg"               width="50" height="50">  <div>K6               </div></div>
 <div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/apache.svg"           width="50" height="50">  <div>Apache Benchmark </div></div>
-</div>
-
 </div>
