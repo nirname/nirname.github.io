@@ -5,7 +5,7 @@
 
 <!-- [![](https://visitcount.itsvg.in/api?id=nirname&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in) -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=125&color=249bb3&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=125&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)](https://git.io/typing-svg)
 
 I am a web developer with diverse experience.
 
@@ -57,7 +57,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 ## Current interests
 
-<img src="https://img.shields.io/badge/Parsers_and_compilers-003049?style=flat-square" height=24 />
+<img src="https://img.shields.io/badge/Parsers_and_compilers-00111d?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Infrastructure-8300c4?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Websites-fcbf49?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Data_visuzlization-1cb08f?style=flat-square" height=24 />
