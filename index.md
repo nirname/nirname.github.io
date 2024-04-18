@@ -2,12 +2,25 @@
 ---
 
 <style>
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .skill {
+    wdith: 80px;
+    height: 80px;
+  }
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
   /* .skills img {
     filter: invert(1);
   } */
 </style>
-
-# My name is Nick
 
 <!-- [![](https://visitcount.itsvg.in/api?id=nirname&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in) -->
 
@@ -29,35 +42,46 @@ Recently I started contributing to open source ([mermaid-js](https://github.com/
 
 ## Skills
 
-<div class="skills" style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; gap: 20px;">
-<!-- <p align="left"> -->
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/ruby.svg"             width="50" height="50">  <div>Ruby             </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/rubyonrails.svg"      width="50" height="50">  <div>Ruby on Rails    </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/javascript.svg"       width="50" height="50">  <div>JavaScript       </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/react.svg"            width="50" height="50">  <div>React            </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/git.svg"              width="50" height="50">  <div>Git              </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/docker.svg"           width="50" height="50">  <div>Docker           </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/postgresql.svg"       width="50" height="50">  <div>Postgres         </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/redis.svg"            width="50" height="50">  <div>Redis            </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/nginx.svg"            width="50" height="50">  <div>NGinx            </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/linux.svg"            width="50" height="50">  <div>Linux            </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/github.svg"           width="50" height="50">  <div>Github           </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/githubactions.svg"    width="50" height="50">  <div>Github Actions   </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/circleci.svg"         width="50" height="50">  <div>Circle CI        </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/rabbitmq.svg"         width="40" height="50">  <div>Rabbit MQ        </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/apachekafka.svg"      width="50" height="50">  <div>Apache Kafka     </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/go.svg"               width="50" height="50">  <div>Go               </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/c.svg"                width="50" height="50">  <div>C                </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/cplusplus.svg"        width="50" height="50">  <div>C++              </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/csharp.svg"           width="50" height="50">  <div>C#               </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/javascript.svg"       width="50" height="50">  <div>Javascript       </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/visualstudiocode.svg" width="50" height="50">  <div>VS Code          </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/traefikproxy.svg"     width="50" height="50">  <div>Traefik          </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/nomad.svg"            width="50" height="50">  <div>Nomad            </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/terraform.svg"        width="50" height="50">  <div>Terraform        </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/ansible.svg"          width="50" height="50">  <div>Ansible          </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/d3dotjs.svg"          width="50" height="50">  <div>D3               </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/swagger.svg"          width="50" height="50">  <div>Swagger          </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/k6.svg"               width="50" height="50">  <div>K6               </div></div>
-<div width="80" height="80" margin="10"> <img src="https://simpleicons.org/icons/apache.svg"           width="50" height="50">  <div>Apache Benchmark </div></div>
+<div class="skills">
+<div class="skill"> <img src="https://simpleicons.org/icons/ruby.svg"             >  <div>Ruby             </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/rubyonrails.svg"      >  <div>Ruby on Rails    </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/javascript.svg"       >  <div>JavaScript       </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/react.svg"            >  <div>React            </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/git.svg"              >  <div>Git              </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/docker.svg"           >  <div>Docker           </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/postgresql.svg"       >  <div>Postgres         </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/redis.svg"            >  <div>Redis            </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/nginx.svg"            >  <div>NGinx            </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/linux.svg"            >  <div>Linux            </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/github.svg"           >  <div>Github           </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/githubactions.svg"    >  <div>Github Actions   </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/circleci.svg"         >  <div>Circle CI        </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/rabbitmq.svg"         >  <div>Rabbit MQ        </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/apachekafka.svg"      >  <div>Apache Kafka     </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/go.svg"               >  <div>Go               </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/c.svg"                >  <div>C                </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/cplusplus.svg"        >  <div>C++              </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/csharp.svg"           >  <div>C#               </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/javascript.svg"       >  <div>Javascript       </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/visualstudiocode.svg" >  <div>VS Code          </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/traefikproxy.svg"     >  <div>Traefik          </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/nomad.svg"            >  <div>Nomad            </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/terraform.svg"        >  <div>Terraform        </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/ansible.svg"          >  <div>Ansible          </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/d3dotjs.svg"          >  <div>D3               </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/swagger.svg"          >  <div>Swagger          </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/k6.svg"               >  <div>K6               </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/apache.svg"           >  <div>Apache Benchmark </div></div>
+</div>
+
+<!-- </p> -->
+
+A also can do a little bit of
+
+**Fusion360**,
+**SketchUp**,
+**3dsMax**,
+**Unity**,
+**Graphviz**.
+
 </div>
