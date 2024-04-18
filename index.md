@@ -22,37 +22,37 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 ## Skills
 
-<div class="skills">
-<div class="skill"> <img src="https://simpleicons.org/icons/ruby.svg"             >  <div>Ruby             </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/rubyonrails.svg"      >  <div>Ruby on Rails    </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/javascript.svg"       >  <div>JavaScript       </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/react.svg"            >  <div>React            </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/git.svg"              >  <div>Git              </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/docker.svg"           >  <div>Docker           </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/postgresql.svg"       >  <div>Postgres         </div></div>
-<div class="skill"> <img src="./icons/redis.svg"                                  >  <div>Redis            </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/nginx.svg"            >  <div>NGinx            </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/linux.svg"            >  <div>Linux            </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/github.svg"           >  <div>Github           </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/githubactions.svg"    >  <div>Github Actions   </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/circleci.svg"         >  <div>Circle CI        </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/rabbitmq.svg"         >  <div>Rabbit MQ        </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/apachekafka.svg"      >  <div>Apache Kafka     </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/go.svg"               >  <div>Go               </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/c.svg"                >  <div>C                </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/cplusplus.svg"        >  <div>C++              </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/csharp.svg"           >  <div>C#               </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/javascript.svg"       >  <div>Javascript       </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/visualstudiocode.svg" >  <div>VS Code          </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/traefikproxy.svg"     >  <div>Traefik          </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/nomad.svg"            >  <div>Nomad            </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/terraform.svg"        >  <div>Terraform        </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/ansible.svg"          >  <div>Ansible          </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/d3dotjs.svg"          >  <div>D3               </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/swagger.svg"          >  <div>Swagger          </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/k6.svg"               >  <div>K6               </div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/apache.svg"           >  <div>Apache<br>Benchmark</div></div>
-<div class="skill"> <img src="https://simpleicons.org/icons/mermaid.svg"          >  <div>Mermaid JS       </div></div>
+<div class="grid">
+<figure class="tile"><img src="https://simpleicons.org/icons/ruby.svg"             ><figcaption>Ruby                 </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/rubyonrails.svg"      ><figcaption>Ruby on Rails        </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/javascript.svg"       ><figcaption>JavaScript           </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/react.svg"            ><figcaption>React                </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/git.svg"              ><figcaption>Git                  </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/docker.svg"           ><figcaption>Docker               </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/postgresql.svg"       ><figcaption>Postgres             </figcaption></figure>
+<figure class="tile"><img src="./icons/redis.svg"                                  ><figcaption>Redis                </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/nginx.svg"            ><figcaption>NGinx                </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/linux.svg"            ><figcaption>Linux                </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/github.svg"           ><figcaption>Github               </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/githubactions.svg"    ><figcaption>Github Actions       </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/circleci.svg"         ><figcaption>Circle CI            </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/rabbitmq.svg"         ><figcaption>Rabbit MQ            </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/apachekafka.svg"      ><figcaption>Apache Kafka         </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/go.svg"               ><figcaption>Go                   </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/c.svg"                ><figcaption>C                    </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/cplusplus.svg"        ><figcaption>C++                  </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/csharp.svg"           ><figcaption>C#                   </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/javascript.svg"       ><figcaption>Javascript           </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/visualstudiocode.svg" ><figcaption>VS Code              </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/traefikproxy.svg"     ><figcaption>Traefik              </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/nomad.svg"            ><figcaption>Nomad                </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/terraform.svg"        ><figcaption>Terraform            </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/ansible.svg"          ><figcaption>Ansible              </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/d3dotjs.svg"          ><figcaption>D3                   </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/swagger.svg"          ><figcaption>Swagger              </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/k6.svg"               ><figcaption>K6                   </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/apache.svg"           ><figcaption>Apache Benchmark  </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/mermaid.svg"          ><figcaption>Mermaid JS           </figcaption></figure>
 </div>
 
 ## Current interests
