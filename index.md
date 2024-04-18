@@ -17,6 +17,28 @@
     width: 50px;
     height: 50px;
   }
+
+  .contact:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 5px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact.calendly:before {
+    background-image: url("https://simpleicons.org/icons/calendly.svg");
+  }
+  .contact.linkedin:before {
+    background-image: url("https://simpleicons.org/icons/linkedin.svg");
+  }
+
   /* .skills img {
     filter: invert(1);
   } */
@@ -33,6 +55,13 @@ I am a web developer with diverse experience.
 Drop me a line if you are interested in collaboration and partnership.
 I can be a **developer**, a **team leader** or a **consultant**.
 I also have some teaching experience, so you may ask me for **mentoring**.
+
+## Contacts
+
+
+<a href=https://calendy.com/nirname class="contact calendly">calendly</a>
+
+<a href="https://www.linkedin.com/in/nirname/" class="contact linkedin">LinkedIn</a>
 
 ## Skills
 
