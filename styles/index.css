@@ -53,12 +53,17 @@ figure {
   /* display: none; */
 }
 
-.contact {
-  display: flex;
-  align-items: center;
+a {
+  text-decoration: underline;
+  color: #00111d;
 }
 
-.contact:before {
+address a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+address a:before {
   content: "";
   display: inline-block;
   width: 20px;
@@ -67,10 +72,17 @@ figure {
   margin-right: 5px;
 }
 
-.contact.calendly:before {
+address .gmail:before {
+  background-image: url("https://simpleicons.org/icons/gmail.svg");
+}
+
+address .github:before {
+  background-image: url("https://simpleicons.org/icons/github.svg");
+}
+address .calendly:before {
   background-image: url("https://simpleicons.org/icons/calendly.svg");
 }
 
-.contact.linkedin:before {
+address .linkedin:before {
   background-image: url("https://simpleicons.org/icons/linkedin.svg");
 }

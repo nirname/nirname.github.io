@@ -17,8 +17,14 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 ## Contacts
 
-<a href="https://calendy.com/nirname" class="contact calendly">Calendly</a>
-<a href="https://www.linkedin.com/in/nirname" class="contact linkedin">Linked In</a>
+<address>
+
+<address>
+<a href="mailto:nironame@gmail.com" class="gmail">Gmail</a>
+<a href="https://github.com/nirname" class="github">GitHub</a>
+<a href="https://calendy.com/nirname" class="calendly">Calendly</a>
+<a href="https://www.linkedin.com/in/nirname" class="linkedin">Linked In</a>
+</address>
 
 ## Skills
 
@@ -30,6 +36,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img src="https://simpleicons.org/icons/git.svg"              ><figcaption>Git                  </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/docker.svg"           ><figcaption>Docker               </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/postgresql.svg"       ><figcaption>Postgres             </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/gnubash.svg"          ><figcaption>BashScript           </figcaption></figure>
 <figure class="tile"><img src="./icons/redis.svg"                                  ><figcaption>Redis                </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/nginx.svg"            ><figcaption>NGinx                </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/linux.svg"            ><figcaption>Linux                </figcaption></figure>
@@ -42,8 +49,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img src="https://simpleicons.org/icons/c.svg"                ><figcaption>C                    </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/cplusplus.svg"        ><figcaption>C++                  </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/csharp.svg"           ><figcaption>C#                   </figcaption></figure>
-<figure class="tile"><img src="https://simpleicons.org/icons/javascript.svg"       ><figcaption>Javascript           </figcaption></figure>
-<figure class="tile"><img src="https://simpleicons.org/icons/visualstudiocode.svg" ><figcaption>VS Code              </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/typescript.svg"       ><figcaption>Typescript           </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/traefikproxy.svg"     ><figcaption>Traefik              </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/nomad.svg"            ><figcaption>Nomad                </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/terraform.svg"        ><figcaption>Terraform            </figcaption></figure>
@@ -53,6 +59,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img src="https://simpleicons.org/icons/k6.svg"               ><figcaption>K6                   </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/apache.svg"           ><figcaption>Apache Benchmark     </figcaption></figure>
 <figure class="tile"><img src="https://simpleicons.org/icons/mermaid.svg"          ><figcaption>Mermaid JS           </figcaption></figure>
+<figure class="tile"><img src="https://simpleicons.org/icons/markdown.svg"         ><figcaption>Markdown             </figcaption></figure>
 </div>
 
 ## Current interests
