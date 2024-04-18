@@ -26,19 +26,13 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=125&color=249bb3&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)](https://git.io/typing-svg)
 
+I am a web developer with diverse experience.
+
+[Mermaid JS](https://github.com/mermaid-js/mermaid) contributor.
+
 Drop me a line if you are interested in collaboration and partnership.
 I can be a **developer**, a **team leader** or a **consultant**.
 I also have some teaching experience, so you may ask me for **mentoring**.
-
-## Current interests
-
-<img src="https://img.shields.io/badge/Parsers_and_compilers-003049?style=flat-square" height=24 />
-<img src="https://img.shields.io/badge/Infrastructure-8300c4?style=flat-square" height=24 />
-<img src="https://img.shields.io/badge/Websites-fcbf49?style=flat-square" height=24 />
-<img src="https://img.shields.io/badge/Data_visuzlization-1cb08f?style=flat-square" height=24 />
-<img src="https://img.shields.io/badge/Computer_graphics-d62828?style=flat-square" height=24 />
-
-[Mermaid JS](https://github.com/mermaid-js/mermaid) contributor.
 
 ## Skills
 
@@ -72,16 +66,23 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <div class="skill"> <img src="https://simpleicons.org/icons/swagger.svg"          >  <div>Swagger          </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/k6.svg"               >  <div>K6               </div></div>
 <div class="skill"> <img src="https://simpleicons.org/icons/apache.svg"           >  <div>Apache Benchmark </div></div>
+<div class="skill"> <img src="https://simpleicons.org/icons/mermaid.svg"          >  <div>Mermaid JS       </div></div>
 </div>
 
-<!-- </p> -->
+## Current interests
 
-A also can do a little bit of
+<img src="https://img.shields.io/badge/Parsers_and_compilers-003049?style=flat-square" height=24 />
+<img src="https://img.shields.io/badge/Infrastructure-8300c4?style=flat-square" height=24 />
+<img src="https://img.shields.io/badge/Websites-fcbf49?style=flat-square" height=24 />
+<img src="https://img.shields.io/badge/Data_visuzlization-1cb08f?style=flat-square" height=24 />
+<img src="https://img.shields.io/badge/Computer_graphics-d62828?style=flat-square" height=24 />
 
+I love creating parsers, 3d modelling, and data visualization.
+
+Know a little bit of
 **Fusion360**,
 **SketchUp**,
 **3dsMax**,
 **Unity**,
 **Graphviz**.
 
-</div>
