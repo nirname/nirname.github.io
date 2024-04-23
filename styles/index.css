@@ -11,13 +11,16 @@ html {
 }
 
 .box .tile {
+  align-items: center;
+  text-align: center;
   width: 80px;
   height: 80px;
 }
 
 .box .tile img {
-  height: 50px;
+  vertical-align: middle;
   width: 50px;
+  height: 50px;
   margin: 5px;
 }
 
@@ -25,7 +28,9 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-gap: 5px;
+  
 }
+
 
 .grid .tile {
   /* width: 100%; */
@@ -54,35 +59,41 @@ figure {
 }
 
 a {
-  text-decoration: underline;
-  color: #00111d;
+  text-decoration: underline dashed;
+  text-underline-position: under; 
+  color: #00111d !important;
 }
 
-address a {
+.line {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
+
 address a:before {
   content: "";
   display: inline-block;
   width: 20px;
-  height: 20px;
+  height: 20px; 
   background-size: cover;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 address .gmail:before {
   background-image: url("https://simpleicons.org/icons/gmail.svg");
 }
-
 address .github:before {
   background-image: url("https://simpleicons.org/icons/github.svg");
 }
 address .calendly:before {
   background-image: url("https://simpleicons.org/icons/calendly.svg");
 }
-
 address .linkedin:before {
   background-image: url("https://simpleicons.org/icons/linkedin.svg");
+}
+
+img.ruby:hover {
+  filter: invert(26%) sepia(85%) saturate(1796%) hue-rotate(341deg) brightness(89%) contrast(93%);
 }
