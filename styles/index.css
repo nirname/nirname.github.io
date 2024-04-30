@@ -117,3 +117,14 @@ address .discord:before {
 .tile:hover img.hover {
   opacity: 1;
 }
+
+.skill {
+  background: #000000;
+  color: #ffffff;
+  padding: 5px 10px;
+  /* text-decoration: line-through; */
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+}

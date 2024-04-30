@@ -67,7 +67,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 
 
 <div class="line">
-<img src="https://img.shields.io/badge/Parsers_and_compilers-00111d?style=flat-square" height=24 />
+<span class="skill">Parsers and compilers</span>
 <img src="https://img.shields.io/badge/Infrastructure-8300c4?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Websites-fcbf49?style=flat-square" height=24 />
 <img src="https://img.shields.io/badge/Data_visuzlization-1cb08f?style=flat-square" height=24 />
