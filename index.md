@@ -23,15 +23,16 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <a href="https://calendly.com/nirname" class="calendly">Calendly</a>
 <a href="https://www.linkedin.com/in/nirname" class="linkedin">Linked In</a>
 <a href="https://t.me/nironame" class="telegram">Telegram</a>
-<a href="https://t.me/discord" class="discord">Discord</a>
+<a href="https://discordapp.com/users/938026250860134420" class="discord">Discord</a>
 </address>
 
 ## Skills
 
 <div class="flex">
-<figure class="tile"><img src="./icons/ruby.svg"            ><img src="./icons/ruby-color.svg"           class="hover"><figcaption>Ruby</figcaption></figure>
+<figure class="tile"><img src="./icons/ruby.svg"            ><img src="./icons/ruby-color.svg"           class="hover"><figcaption>Ruby                 </figcaption></figure>
 <figure class="tile"><img src="./icons/javascript.svg"      ><img src="./icons/javascript-color.svg"     class="hover"><figcaption>JavaScript           </figcaption></figure>
 <figure class="tile"><img src="./icons/rubyonrails.svg"     ><img src="./icons/rubyonrails-color.svg"    class="hover"><figcaption>Ruby on Rails        </figcaption></figure>
+<figure class="tile"><img src="./icons/rspec.svg"           ><img src="./icons/rspec-color.svg"          class="hover"><figcaption>RSpec                </figcaption></figure>
 <figure class="tile"><img src="./icons/react.svg"           ><img src="./icons/react-color.svg"          class="hover"><figcaption>React                </figcaption></figure>
 <figure class="tile"><img src="./icons/git.svg"             ><img src="./icons/git-color.svg"            class="hover"><figcaption>Git                  </figcaption></figure>
 <figure class="tile"><img src="./icons/docker.svg"          ><img src="./icons/docker-color.svg"         class="hover"><figcaption>Docker               </figcaption></figure>
