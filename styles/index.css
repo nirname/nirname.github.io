@@ -1,5 +1,5 @@
 html {
-  color: #002540;
+  color: #001c31;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,7 +50,7 @@ figure {
 a {
   text-decoration: underline dashed;
   text-underline-position: under; 
-  color: #002540 !important;
+  color: #001c31 !important;
 }
 
 .line {
@@ -119,12 +119,34 @@ address .discord:before {
 }
 
 .skill {
-  background: #000000;
-  color: #ffffff;
   padding: 5px 10px;
-  /* text-decoration: line-through; */
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
 }
+
+.skill-1 {
+  background: #001c31;
+  color: #ffffff;
+}
+
+.skill-2 {
+  background: #8300c4;
+  color: #ffffff;
+}
+
+.skill-3 {
+  background: #fcbf49;
+  color: #001c31;
+}
+
+.skill-4 {
+  background: #1cb08f;
+  color: #ffffff;
+}
+
+.skill-5 {
+  background: #d62828;
+  color: #ffffff;
+} 
