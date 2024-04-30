@@ -2,47 +2,45 @@ html {
   color: #00111d;
 }
 
-.box {
+.flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  gap: 20px;
-}
-
-.box .tile {
-  width: 80px;
-  height: 80px;
-}
-
-.box .tile img {
-  height: 50px;
-  width: 50px;
-  margin: 5px;
+  gap: 10px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-gap: 5px;
+  
 }
 
-.grid .tile {
+.flex .tile, .grid .tile {
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
+
   /* width: 100%; */
   /* height: 100%; */
   /* aspect-ratio: 1/1; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center;
   text-align: center;
-}
+} */
 
-.grid .tile img {
+.flex .tile img, .grid .tile img {
   vertical-align: middle;
+  /* position: relative; */
   width: 50px;
   height: 50px;
   margin: 5px;
+
 }
 
 figure {
@@ -54,35 +52,65 @@ figure {
 }
 
 a {
-  text-decoration: underline;
-  color: #00111d;
+  text-decoration: underline dashed;
+  text-underline-position: under; 
+  color: #00111d !important;
 }
 
-address a {
+.line {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
+
 address a:before {
   content: "";
   display: inline-block;
   width: 20px;
-  height: 20px;
+  height: 20px; 
   background-size: cover;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 address .gmail:before {
-  background-image: url("https://simpleicons.org/icons/gmail.svg");
+  background-image: url("../icons/gmail.svg");
 }
-
 address .github:before {
-  background-image: url("https://simpleicons.org/icons/github.svg");
+  background-image: url("../icons/github.svg");
 }
 address .calendly:before {
-  background-image: url("https://simpleicons.org/icons/calendly.svg");
+  background-image: url("../icons/calendly.svg");
+}
+address .linkedin:before {
+  background-image: url("../icons/linkedin.svg");
+}
+address .telegram:before {
+  background-image: url("../icons/telegram.svg");
+}
+address .discord:before {
+  background-image: url("../icons/discord.svg");
 }
 
-address .linkedin:before {
-  background-image: url("https://simpleicons.org/icons/linkedin.svg");
+/* figure {
+  position: relative;
+  overflow: hidden;
+} */
+
+.tile img:not(.hover) {
+  display: block
+}
+
+.tile img.hover {
+  display: none;
+}
+
+.tile:hover img:not(.hover) {
+  display: none;
+}
+
+.tile:hover img.hover {
+  display: block;
 }
