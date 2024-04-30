@@ -2,26 +2,12 @@ html {
   color: #00111d;
 }
 
-.box {
+.flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  gap: 20px;
-}
-
-.box .tile {
-  align-items: center;
-  text-align: center;
-  width: 80px;
-  height: 80px;
-}
-
-.box .tile img {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  margin: 5px;
+  gap: 10px;
 }
 
 .grid {
@@ -31,23 +17,30 @@ html {
   
 }
 
+.flex .tile, .grid .tile {
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
 
-.grid .tile {
   /* width: 100%; */
   /* height: 100%; */
   /* aspect-ratio: 1/1; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center;
   text-align: center;
-}
+} */
 
-.grid .tile img {
+.flex .tile img, .grid .tile img {
   vertical-align: middle;
+  /* position: relative; */
   width: 50px;
   height: 50px;
   margin: 5px;
+
 }
 
 figure {
@@ -66,6 +59,7 @@ a {
 
 .line {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -82,18 +76,41 @@ address a:before {
 }
 
 address .gmail:before {
-  background-image: url("https://simpleicons.org/icons/gmail.svg");
+  background-image: url("../icons/gmail.svg");
 }
 address .github:before {
-  background-image: url("https://simpleicons.org/icons/github.svg");
+  background-image: url("../icons/github.svg");
 }
 address .calendly:before {
-  background-image: url("https://simpleicons.org/icons/calendly.svg");
+  background-image: url("../icons/calendly.svg");
 }
 address .linkedin:before {
-  background-image: url("https://simpleicons.org/icons/linkedin.svg");
+  background-image: url("../icons/linkedin.svg");
+}
+address .telegram:before {
+  background-image: url("../icons/telegram.svg");
+}
+address .discord:before {
+  background-image: url("../icons/discord.svg");
 }
 
-img.ruby:hover {
-  filter: invert(26%) sepia(85%) saturate(1796%) hue-rotate(341deg) brightness(89%) contrast(93%);
+/* figure {
+  position: relative;
+  overflow: hidden;
+} */
+
+.tile img:not(.hover) {
+  display: block
+}
+
+.tile img.hover {
+  display: none;
+}
+
+.tile:hover img:not(.hover) {
+  display: none;
+}
+
+.tile:hover img.hover {
+  display: block;
 }
