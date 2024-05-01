@@ -48,6 +48,10 @@ figure {
   margin: 0 !important;
 }
 
+figcaption {
+  word-wrap: normal !important;
+}
+
 a {
   text-decoration: underline dashed;
   text-underline-position: under; 

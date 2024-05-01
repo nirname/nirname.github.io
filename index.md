@@ -75,7 +75,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 </p>
 
 
-I love creating parsers, 3d modelling, and data visualization.
+I love creating parsers, doing 3d modelling, and creating data visualizations.
 
 Can do a little bit of
 **Fusion360**,
