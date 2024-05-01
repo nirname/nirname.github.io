@@ -32,7 +32,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img class="skill ruby">          <figcaption>Ruby             </figcaption></figure>
 <figure class="tile"><img class="skill javascript">    <figcaption>JavaScript       </figcaption></figure>
 <figure class="tile"><img class="skill rubyonrails">   <figcaption>Ruby on Rails    </figcaption></figure>
-<!-- <figure class="tile"><img class="skill rspec">         <figcaption>RSpec            </figcaption></figure> -->
+<figure class="tile"><img class="skill rspec">         <figcaption>RSpec            </figcaption></figure>
 <figure class="tile"><img class="skill react">         <figcaption>React            </figcaption></figure>
 <figure class="tile"><img class="skill git">           <figcaption>Git              </figcaption></figure>
 <figure class="tile"><img class="skill docker">        <figcaption>Docker           </figcaption></figure>

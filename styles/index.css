@@ -96,14 +96,23 @@ address .discord:before { background-image: url("../icons/discord.svg"); }
 img.skill {
   background-color: #001c31;
   transition: background-color 0.5s ease;
+  mask-position: center;
+  mask-size: 48px 48px;
+  mask-repeat: no-repeat;
   border: 0px;
   padding: 0px;
 }
 
+/*
+#5ecae6
+#a5ddef
+#7fd2ed
+*/
+
 img.skill.ruby           { mask: url("../icons/ruby.svg") }          img.skill.ruby:hover           { background-color: #cc342d;}
 img.skill.javascript     { mask: url("../icons/javascript.svg") }    img.skill.javascript:hover     { background-color: #f7df1e;}
 img.skill.rubyonrails    { mask: url("../icons/rubyonrails.svg") }   img.skill.rubyonrails:hover    { background-color: #d30001;}
-img.skill.rspec          { mask: url("../icons/rspec.svg") }         img.skill.rspec:hover          { background-color: #8300c4;}
+img.skill.rspec          { mask: url("../icons/rspec.svg") }         img.skill.rspec:hover          { background-color: #7fd2ed;}
 img.skill.react          { mask: url("../icons/react.svg") }         img.skill.react:hover          { background-color: #61dafb;}
 img.skill.git            { mask: url("../icons/git.svg") }           img.skill.git:hover            { background-color: #f05032;}
 img.skill.docker         { mask: url("../icons/docker.svg") }        img.skill.docker:hover         { background-color: #8300c4;}
