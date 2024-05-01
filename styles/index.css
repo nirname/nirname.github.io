@@ -97,17 +97,14 @@ img.skill {
   background-color: #001c31;
   transition: background-color 0.5s ease;
   mask-position: center;
+  -webkit-mask-position: center;
   mask-size: 48px 48px;
+  -webkit-mask-size: 48px 48px;
   mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
   border: 0px;
   padding: 0px;
 }
-
-/*
-#5ecae6
-#a5ddef
-#7fd2ed
-*/
 
 img.skill.ruby           { mask: url("../icons/ruby.svg") }          img.skill.ruby:hover           { background-color: #cc342d;}
 img.skill.javascript     { mask: url("../icons/javascript.svg") }    img.skill.javascript:hover     { background-color: #f7df1e;}
