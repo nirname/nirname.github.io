@@ -26,52 +26,55 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <a href="https://discordapp.com/users/938026250860134420" class="discord">Discord</a>
 </address>
 
+
+<img width="300" height="300" class="mask">
+
 ## Skills
 
 <div class="flex">
-<figure class="tile"><img src="./icons/ruby.svg"            ><img src="./icons/ruby-color.svg"           class="hover"><figcaption>Ruby                 </figcaption></figure>
-<figure class="tile"><img src="./icons/javascript.svg"      ><img src="./icons/javascript-color.svg"     class="hover"><figcaption>JavaScript           </figcaption></figure>
-<figure class="tile"><img src="./icons/rubyonrails.svg"     ><img src="./icons/rubyonrails-color.svg"    class="hover"><figcaption>Ruby on Rails        </figcaption></figure>
-<figure class="tile"><img src="./icons/rspec.svg"           ><img src="./icons/rspec-color.svg"          class="hover"><figcaption>RSpec                </figcaption></figure>
-<figure class="tile"><img src="./icons/react.svg"           ><img src="./icons/react-color.svg"          class="hover"><figcaption>React                </figcaption></figure>
-<figure class="tile"><img src="./icons/git.svg"             ><img src="./icons/git-color.svg"            class="hover"><figcaption>Git                  </figcaption></figure>
-<figure class="tile"><img src="./icons/docker.svg"          ><img src="./icons/docker-color.svg"         class="hover"><figcaption>Docker               </figcaption></figure>
-<figure class="tile"><img src="./icons/postgresql.svg"      ><img src="./icons/postgresql-color.svg"     class="hover"><figcaption>Postgres             </figcaption></figure>
-<figure class="tile"><img src="./icons/gnubash.svg"         ><img src="./icons/gnubash-color.svg"        class="hover"><figcaption>BashScript           </figcaption></figure>
-<figure class="tile"><img src="./icons/redis.svg"           ><img src="./icons/redis-color.svg"          class="hover"><figcaption>Redis                </figcaption></figure>
-<figure class="tile"><img src="./icons/nginx.svg"           ><img src="./icons/nginx-color.svg"          class="hover"><figcaption>NGinx                </figcaption></figure>
-<figure class="tile"><img src="./icons/linux.svg"           ><img src="./icons/linux-color.svg"          class="hover"><figcaption>Linux                </figcaption></figure>
-<figure class="tile"><img src="./icons/github.svg"          ><img src="./icons/github-color.svg"         class="hover"><figcaption>Github               </figcaption></figure>
-<figure class="tile"><img src="./icons/githubactions.svg"   ><img src="./icons/githubactions-color.svg"  class="hover"><figcaption>Github Actions       </figcaption></figure>
-<figure class="tile"><img src="./icons/circleci.svg"        ><img src="./icons/circleci-color.svg"       class="hover"><figcaption>Circle CI            </figcaption></figure>
-<figure class="tile"><img src="./icons/rabbitmq.svg"        ><img src="./icons/rabbitmq-color.svg"       class="hover"><figcaption>Rabbit MQ            </figcaption></figure>
-<figure class="tile"><img src="./icons/apachekafka.svg"     ><img src="./icons/apachekafka-color.svg"    class="hover"><figcaption>Apache Kafka         </figcaption></figure>
-<figure class="tile"><img src="./icons/go.svg"              ><img src="./icons/go-color.svg"             class="hover"><figcaption>Go                   </figcaption></figure>
-<figure class="tile"><img src="./icons/c.svg"               ><img src="./icons/c-color.svg"              class="hover"><figcaption>C                    </figcaption></figure>
-<figure class="tile"><img src="./icons/cplusplus.svg"       ><img src="./icons/cplusplus-color.svg"      class="hover"><figcaption>C++                  </figcaption></figure>
-<figure class="tile"><img src="./icons/csharp.svg"          ><img src="./icons/csharp-color.svg"         class="hover"><figcaption>C#                   </figcaption></figure>
-<figure class="tile"><img src="./icons/typescript.svg"      ><img src="./icons/typescript-color.svg"     class="hover"><figcaption>Typescript           </figcaption></figure>
-<figure class="tile"><img src="./icons/traefikproxy.svg"    ><img src="./icons/traefikproxy-color.svg"   class="hover"><figcaption>Traefik              </figcaption></figure>
-<figure class="tile"><img src="./icons/nomad.svg"           ><img src="./icons/nomad-color.svg"          class="hover"><figcaption>Nomad                </figcaption></figure>
-<figure class="tile"><img src="./icons/terraform.svg"       ><img src="./icons/terraform-color.svg"      class="hover"><figcaption>Terraform            </figcaption></figure>
-<figure class="tile"><img src="./icons/ansible.svg"         ><img src="./icons/ansible-color.svg"        class="hover"><figcaption>Ansible              </figcaption></figure>
-<figure class="tile"><img src="./icons/d3dotjs.svg"         ><img src="./icons/d3dotjs-color.svg"        class="hover"><figcaption>D3                   </figcaption></figure>
-<figure class="tile"><img src="./icons/swagger.svg"         ><img src="./icons/swagger-color.svg"        class="hover"><figcaption>Swagger              </figcaption></figure>
-<figure class="tile"><img src="./icons/k6.svg"              ><img src="./icons/k6-color.svg"             class="hover"><figcaption>K6                   </figcaption></figure>
-<figure class="tile"><img src="./icons/apache.svg"          ><img src="./icons/apache-color.svg"         class="hover"><figcaption>Apache Benchmark     </figcaption></figure>
-<figure class="tile"><img src="./icons/mermaid.svg"         ><img src="./icons/mermaid-color.svg"        class="hover"><figcaption>Mermaid JS           </figcaption></figure>
-<figure class="tile"><img src="./icons/markdown.svg"        ><img src="./icons/markdown-color.svg"       class="hover"><figcaption>Markdown             </figcaption></figure>
+<figure class="tile"><img class="skill ruby">          <figcaption>Ruby             </figcaption></figure>
+<figure class="tile"><img class="skill javascript">    <figcaption>JavaScript       </figcaption></figure>
+<figure class="tile"><img class="skill rubyonrails">   <figcaption>Ruby on Rails    </figcaption></figure>
+<!-- <figure class="tile"><img class="skill rspec">         <figcaption>RSpec            </figcaption></figure> -->
+<figure class="tile"><img class="skill react">         <figcaption>React            </figcaption></figure>
+<figure class="tile"><img class="skill git">           <figcaption>Git              </figcaption></figure>
+<figure class="tile"><img class="skill docker">        <figcaption>Docker           </figcaption></figure>
+<figure class="tile"><img class="skill postgresql">    <figcaption>Postgres         </figcaption></figure>
+<figure class="tile"><img class="skill gnubash">       <figcaption>BashScript       </figcaption></figure>
+<figure class="tile"><img class="skill redis">         <figcaption>Redis            </figcaption></figure>
+<figure class="tile"><img class="skill nginx">         <figcaption>NGinx            </figcaption></figure>
+<figure class="tile"><img class="skill linux">         <figcaption>Linux            </figcaption></figure>
+<figure class="tile"><img class="skill github">        <figcaption>Github           </figcaption></figure>
+<figure class="tile"><img class="skill githubactions"> <figcaption>Github Actions   </figcaption></figure>
+<figure class="tile"><img class="skill circleci">      <figcaption>Circle CI        </figcaption></figure>
+<figure class="tile"><img class="skill rabbitmq">      <figcaption>Rabbit MQ        </figcaption></figure>
+<figure class="tile"><img class="skill apachekafka">   <figcaption>Apache Kafka     </figcaption></figure>
+<figure class="tile"><img class="skill go">            <figcaption>Go               </figcaption></figure>
+<figure class="tile"><img class="skill c">             <figcaption>C                </figcaption></figure>
+<figure class="tile"><img class="skill cplusplus">     <figcaption>C++              </figcaption></figure>
+<figure class="tile"><img class="skill csharp">        <figcaption>C#               </figcaption></figure>
+<figure class="tile"><img class="skill typescript">    <figcaption>Typescript       </figcaption></figure>
+<figure class="tile"><img class="skill traefikproxy">  <figcaption>Traefik          </figcaption></figure>
+<figure class="tile"><img class="skill nomad">         <figcaption>Nomad            </figcaption></figure>
+<figure class="tile"><img class="skill terraform">     <figcaption>Terraform        </figcaption></figure>
+<figure class="tile"><img class="skill ansible">       <figcaption>Ansible          </figcaption></figure>
+<figure class="tile"><img class="skill d3dotjs">       <figcaption>D3               </figcaption></figure>
+<figure class="tile"><img class="skill swagger">       <figcaption>Swagger          </figcaption></figure>
+<figure class="tile"><img class="skill k6">            <figcaption>K6               </figcaption></figure>
+<figure class="tile"><img class="skill apache">        <figcaption>Apache Benchmark </figcaption></figure>
+<figure class="tile"><img class="skill mermaid">       <figcaption>Mermaid JS       </figcaption></figure>
+<figure class="tile"><img class="skill markdown">      <figcaption>Markdown         </figcaption></figure>
 </div>
 
 ## Current interests
 
 
 <p class="line">
-<span class="skill skill-1">Parsers and compilers</span>
-<span class="skill skill-2">Infrastructure</span>
-<span class="skill skill-3">Websites</span>
-<span class="skill skill-4">Data visuzlization</span>
-<span class="skill skill-5">Computer graphics</span>
+<span class="interest interest-1">Parsers and compilers</span>
+<span class="interest interest-2">Infrastructure</span>
+<span class="interest interest-3">Websites</span>
+<span class="interest interest-4">Data visuzlization</span>
+<span class="interest interest-5">Computer graphics</span>
 </p>
 
 
