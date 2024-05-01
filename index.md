@@ -26,9 +26,6 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <a href="https://discordapp.com/users/938026250860134420" class="discord">Discord</a>
 </address>
 
-
-<img width="300" height="300" class="mask">
-
 ## Skills
 
 <div class="flex">
