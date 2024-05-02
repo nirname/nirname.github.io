@@ -19,12 +19,12 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 ## Contacts
 
 <address class="line">
-<a href="mailto:nironame@gmail.com" class="gmail">Gmail</a>
-<a href="https://github.com/nirname" class="github">GitHub</a>
-<a href="https://calendly.com/nirname" class="calendly">Calendly</a>
-<a href="https://www.linkedin.com/in/nirname" class="linkedin">Linked In</a>
-<a href="https://t.me/nironame" class="telegram">Telegram</a>
-<a href="https://discordapp.com/users/938026250860134420" class="discord">Discord</a>
+<a class="gmail"    href="mailto:nironame@gmail.com"                      >Gmail</a>
+<a class="github"   href="https://github.com/nirname"                     >GitHub</a>
+<a class="calendly" href="https://calendly.com/nirname"                   >Calendly</a>
+<a class="linkedin" href="https://www.linkedin.com/in/nirname"            >Linked In</a>
+<a class="telegram" href="https://t.me/nironame"                          >Telegram</a>
+<a class="discord"  href="https://discordapp.com/users/938026250860134420">Discord</a>
 </address>
 
 ## Skills

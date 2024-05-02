@@ -79,12 +79,16 @@ address a:before {
   vertical-align: middle;
 }
 
-address .gmail:before { background-image: url("../icons/gmail.svg"); }
-address .github:before { background-image: url("../icons/github.svg"); }
-address .calendly:before { background-image: url("../icons/calendly.svg"); }
-address .linkedin:before { background-image: url("../icons/linkedin.svg"); }
-address .telegram:before { background-image: url("../icons/telegram.svg"); }
-address .discord:before { background-image: url("../icons/discord.svg"); }
+address a:before {
+  background-color: var(--primary-color);
+}
+
+address .gmail:before    { mask: url("../icons/gmail.svg"); }    .gmail:hover:before { background-color: #ea4335; }
+address .github:before   { mask: url("../icons/github.svg"); }   
+address .calendly:before { mask: url("../icons/calendly.svg"); } .calendly:hover:before { background-color: #006bff;}
+address .linkedin:before { mask: url("../icons/linkedin.svg"); } .linkedin:hover:before { background-color: #0a66c2 ;}
+address .telegram:before { mask: url("../icons/telegram.svg"); } .telegram:hover:before { background-color: #26a5e4;}
+address .discord:before  { mask: url("../icons/discord.svg"); }  .discord:hover:before { background-color: #5865f2 ;}
 
 .interest {
   padding: 5px 10px;
