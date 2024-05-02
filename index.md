@@ -17,6 +17,7 @@ I am a web developer with diverse experience.
 Drop me a line if you are interested in collaboration and partnership.
 I can be a **developer**, a **team leader** or a **consultant**.
 I also have some teaching experience, so you may ask me for **mentoring**.
+Can keep track of outsource development.
 
 </div>
 
@@ -114,7 +115,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 > the more tools for analysis the better, especially when conducting load
 > testing.
 
-> Cross-domain cookies has pros and cons. They can cause troubles during
+> Cross-domain cookies have pros and cons. They can cause troubles during
 > switching between domain and cross-domain version, but sometimes help to
 > reduce the amount of work needed by a developer to authorize a user.
 
