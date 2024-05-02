@@ -191,7 +191,7 @@ blockquote{
   line-height: 1.6;
   margin: 20px auto !important;
   padding: 1em 30px 1em 60px !important;
-  border-left: 8px solid var(--primary-color) !important;
+  border-left: 8px solid #6a737d !important;
   position: relative !important;
   /* background:#EDEDED; */
 }
@@ -211,7 +211,7 @@ blockquote>:last-child {
 blockquote:before{
   font-family:Arial;
   content: "\201C";
-  /* color:#78C0A8; */
+  color: #6a737d;
   font-size:4em;
   position: absolute;
   left: 10px;
