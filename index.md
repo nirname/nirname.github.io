@@ -4,7 +4,9 @@
 <link rel="stylesheet" href="./styles/index.css">
 <script src="./scripts/index.js"></script>
 
-<!-- [![](https://visitcount.itsvg.in/api?id=nirname&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in) -->
+<div class="about">
+
+<img class="me" src="./images/me.jpg">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)](https://git.io/typing-svg)
 
@@ -15,6 +17,9 @@ I am a web developer with diverse experience.
 Drop me a line if you are interested in collaboration and partnership.
 I can be a **developer**, a **team leader** or a **consultant**.
 I also have some teaching experience, so you may ask me for **mentoring**.
+
+</div>
+
 
 ## Contacts
 

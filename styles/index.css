@@ -90,6 +90,18 @@ address .linkedin:before { mask: url("../icons/linkedin.svg"); } .linkedin:hover
 address .telegram:before { mask: url("../icons/telegram.svg"); } .telegram:hover:before { background-color: #26a5e4;}
 address .discord:before  { mask: url("../icons/discord.svg"); }  .discord:hover:before { background-color: #5865f2 ;}
 
+img.me {
+  float: right;
+  margin: 0 20px 20px 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about {
+  clear: both;
+  float: none;
+}
+
 .interest {
   padding: 5px 10px;
   font-size: 12px;
