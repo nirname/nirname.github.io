@@ -71,7 +71,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 ## Some experience excerpts
 
 > Implemented parser for the schedule (proprietary), which was written in a free
-> form, like &laquo;working from monday to saturday, 9 am to 10 pm, 1 hour lunch at 2
+> form like &laquo;working from monday to saturday, 9 am to 10 pm, 1 hour lunch at 2
 > o'clock&raquo;. They had no standard for this nor a form to fill so and every office
 > of the company cut loose and invented their own string describing working hours.
 > We could not force all the people to format this correctly, hence the parser
