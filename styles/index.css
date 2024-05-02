@@ -96,8 +96,8 @@ img.me {
   float: left;
   margin: 0 20px 20px 0px;
   /* border-radius: 50%; */
-  height: 220px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   overflow: hidden;
 }
 
@@ -185,20 +185,18 @@ img.skill.markdown       { mask: url("../icons/markdown.svg") }
 
 img.skill.animated.progress { animation: rotateY 1s 1 linear; }
 
-html {
-  font-size: 1.2em;
-  line-height: 1.6;
-}
-
 /* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
 blockquote{
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   /* width:60%; */
+  font-size: 1.2em;
+  line-height: 1.6;
+  
   margin: 20px auto;
   /* font-family:Open Sans; */
   padding: 1.2em 30px 1em 60px;
   /* border-left:8px solid #78C0A8 ; */
-  line-height: 1.6;
+  /* line-height: 1.6; */
   position: relative;
   /* background:#EDEDED; */
 }

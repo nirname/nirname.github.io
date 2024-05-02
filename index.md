@@ -71,8 +71,8 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 ## Some experience excerpts
 
 > Implemented parser for the schedule (proprietary), which was written in a free
-> form, like "working from monday to saturday, 9 am to 10 pm, 1 hour lunch at 2
-> o'clock". They had no standard for this nor a form to fill so and every office
+> form, like &laquo;working from monday to saturday, 9 am to 10 pm, 1 hour lunch at 2
+> o'clock&raquo;. They had no standard for this nor a form to fill so and every office
 > of the company cut loose and invented their own string describing working hours.
 > We could not force all the people to format this correctly, hence the parser
 > came into play.
@@ -92,18 +92,19 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 > debugging is awesome and the way to go.
 
 
-> Prefer to set up local development with Docker so as to avoid conflicts and
-> simplify onboarding process.
+> Prefer to set up local development with Docker. It helps to avoid versions
+> conflicts durings installation, simplify onboarding process and your software
+> becomes more or less portable.
 
 > It can be awkward to configure Redis clusters as well as Rabbit MQ clusters
 > within Kubernetes or Nomad. They need to know node / host name of their
-> siblings, which may not be the case of service discovery
+> siblings, which may not be the case of service discovery.
 
 > The simplest and fastest to start for load testing is AB or siege. For longer
 > scenarios I usually prefer K6, because it is convenient, and there are
 > convertors from HAR to JS. Tsung, though is powerful, is not advisable:
-> wrapping escaped json (your data) into erlang (sometimes you need embedded
-> erlang for the scenario) withing xml (which describes your scenario) is
+> wrapping escaped JSON (your data) into Erlang (sometimes you need embedded
+> erlang for the scenario) withing XML (which describes your scenario) is
 > completely unreadable.
 
 
