@@ -189,7 +189,7 @@ img.skill.animated.progress { animation: rotateY 1s 1 linear; }
 blockquote{
   font-size: 1.2em;
   line-height: 1.6;
-  margin: 20px auto !important;
+  margin: 1em auto !important;
   padding: 1em 30px 1em 60px !important;
   border-left: 1px solid #6a737d !important;
   /* border-left: 0 !important; */
