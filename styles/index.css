@@ -187,17 +187,12 @@ img.skill.animated.progress { animation: rotateY 1s 1 linear; }
 
 /* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
 blockquote{
-  /* font-size: 1.2em; */
-  /* width:60%; */
   font-size: 1.2em;
   line-height: 1.6;
-  
-  margin: 20px auto;
-  /* font-family:Open Sans; */
-  padding: 1.2em 30px 1em 60px;
-  border-left:8px solid var(--primary-color) ;
-  /* line-height: 1.6; */
-  position: relative;
+  margin: 20px auto !important;
+  padding: 1.2em 30px 1em 60px !important;
+  border-left:8px solid var(--primary-color) !important;
+  position: relative !important;
   /* background:#EDEDED; */
 }
 
@@ -209,6 +204,9 @@ blockquote:nth-child(3n) {
   margin-left: 20px;
 }
 
+blockquote>:last-child {
+  margin-bottom: 0;
+}
 
 blockquote::before{
   font-family:Arial;
