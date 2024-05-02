@@ -1,9 +1,10 @@
 :root {
   --primary-color: #001c31;
+  --secondary-color: #fffef1;
 }
 
 html {
-  color: #001c31;
+  color: var(--primary-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   /* gap: 0px; */
 }
@@ -58,7 +59,7 @@ figcaption {
 a {
   text-decoration: underline dashed;
   text-underline-position: under; 
-  color: #001c31 !important;
+  color: var(--primary-color) !important;
 }
 
 .line {
@@ -119,11 +120,11 @@ img.me {
   font-family: sans-serif;
 }
 
-.interest-1 { background: #001c31; color: #ffffff; }
-.interest-2 { background: #8300c4; color: #ffffff; }
-.interest-3 { background: #fcbf49; color: #001c31; }
-.interest-4 { background: #1cb08f; color: #ffffff; }
-.interest-5 { background: #d62828; color: #ffffff; } 
+.interest-1 { background: var(--primary-color); color: var(--secondary-color); }
+.interest-2 { background: #8300c4; color: var(--secondary-color); }
+.interest-3 { background: #fcbf49; color: var(--primary-color); }
+.interest-4 { background: #1cb08f; color: var(--secondary-color); }
+.interest-5 { background: #d62828; color: var(--secondary-color); } 
 
 img.skill {
   background-color: var(--primary-color);

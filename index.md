@@ -8,7 +8,7 @@
 
 <img class="me" src="./images/me.jpg">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.">
 
 I am a web developer with diverse experience.
 
@@ -69,8 +69,12 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img class="skill markdown animated">  <figcaption>Markdown         </figcaption></figure>
 </div>
 
-## Current interests
+## ...
 
+
+
+
+## Current interests
 
 <p class="line">
 <span class="interest interest-1">Parsers and compilers</span>
