@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px;
 }
 
+
 figure {
   margin: 0 !important;
 }
@@ -183,3 +184,43 @@ img.skill.mermaid        { mask: url("../icons/mermaid.svg") }       img.skill.m
 img.skill.markdown       { mask: url("../icons/markdown.svg") }      
 
 img.skill.animated.progress { animation: rotateY 1s 1 linear; }
+
+html {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
+blockquote{
+  font-size: 1.2em;
+  /* width:60%; */
+  margin: 20px auto;
+  /* font-family:Open Sans; */
+  padding: 1.2em 30px 1em 60px;
+  /* border-left:8px solid #78C0A8 ; */
+  line-height: 1.6;
+  position: relative;
+  /* background:#EDEDED; */
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  /* color:#78C0A8; */
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+/* blockquote::after{
+  content: '';
+} */
+/* 
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+} */

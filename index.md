@@ -83,12 +83,14 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 > - xsolla
 > - wechat
 > - stripe
+> 
 > Among all of them (at the time of implementation) the worst documented was
 > Alipay, and the best documented and the easiest to embed was Stripe. Do not find
 > this very interesting, but Stripe's approach of launching local client and
 > avoiding all unnecessary things, such as exposing your localhost to the internet
 > and providing payment system with your host name for the sake of testing and
 > debugging is awesome and the way to go.
+
 
 > Prefer to set up local development with Docker so as to avoid conflicts and
 > simplify onboarding process.
