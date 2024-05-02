@@ -91,7 +91,6 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 > and providing payment system with your host name for the sake of testing and
 > debugging is awesome and the way to go.
 
-
 > Prefer to set up local development with Docker. It helps to avoid versions
 > conflicts durings installation, simplify onboarding process and your software
 > becomes more or less portable.

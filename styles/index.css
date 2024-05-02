@@ -195,11 +195,20 @@ blockquote{
   margin: 20px auto;
   /* font-family:Open Sans; */
   padding: 1.2em 30px 1em 60px;
-  /* border-left:8px solid #78C0A8 ; */
+  border-left:8px solid var(--primary-color) ;
   /* line-height: 1.6; */
   position: relative;
   /* background:#EDEDED; */
 }
+
+blockquote:nth-child(odd) {
+  margin-left: 10px;
+}
+
+blockquote:nth-child(3n) {
+  margin-left: 20px;
+}
+
 
 blockquote::before{
   font-family:Arial;
@@ -210,6 +219,7 @@ blockquote::before{
   left: 10px;
   top:-10px;
 }
+
 
 /* blockquote::after{
   content: '';
