@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="./styles/index.css">
 <script src="./scripts/index.js"></script>
 
-<div class="about">
+<div class="about" markdown="1">
 
 <img class="me" src="./images/me.jpg">
 
@@ -69,10 +69,11 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img class="skill markdown animated">  <figcaption>Markdown         </figcaption></figure>
 </div>
 
-## ...
 
-
-
+<!-- 
+Among different payment systems integrations the worst documentation (at the
+time of implementation) was Alipay, and the best and the easiest in terms of
+documentation and implementation was Stripe. -->
 
 ## Current interests
 
