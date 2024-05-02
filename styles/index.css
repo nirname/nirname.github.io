@@ -190,25 +190,25 @@ blockquote{
   font-size: 1.2em;
   line-height: 1.6;
   margin: 20px auto !important;
-  padding: 1.2em 30px 1em 60px !important;
-  border-left:8px solid var(--primary-color) !important;
+  padding: 1em 30px 1em 60px !important;
+  border-left: 8px solid var(--primary-color) !important;
   position: relative !important;
   /* background:#EDEDED; */
 }
 
 blockquote:nth-child(odd) {
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 
 blockquote:nth-child(3n) {
-  margin-left: 20px;
+  margin-left: 20px !important;
 }
 
 blockquote>:last-child {
   margin-bottom: 0;
 }
 
-blockquote::before{
+blockquote:before{
   font-family:Arial;
   content: "\201C";
   /* color:#78C0A8; */
@@ -219,9 +219,10 @@ blockquote::before{
 }
 
 
-/* blockquote::after{
+/* blockquote:after{
   content: '';
 } */
+
 /* 
 blockquote span{
   display:block;
