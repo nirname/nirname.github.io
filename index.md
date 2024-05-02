@@ -8,7 +8,7 @@
 
 <img class="me" src="./images/me.jpg">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.">
+![Hello!](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)
 
 I am a web developer with diverse experience.
 
@@ -19,7 +19,6 @@ I can be a **developer**, a **team leader** or a **consultant**.
 I also have some teaching experience, so you may ask me for **mentoring**.
 
 </div>
-
 
 ## Contacts
 
@@ -69,11 +68,42 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img class="skill markdown animated">  <figcaption>Markdown         </figcaption></figure>
 </div>
 
+## Some experience excerpts
 
-<!-- 
-Among different payment systems integrations the worst documentation (at the
-time of implementation) was Alipay, and the best and the easiest in terms of
-documentation and implementation was Stripe. -->
+> Implemented parser for the schedule (proprietary), which was written in a free
+> form, like "working from monday to saturday, 9 am to 10 pm, 1 hour lunch at 2
+> o'clock". They had no standard for this nor a form to fill so and every office
+> of the company cut loose and invented their own string describing working hours.
+> We could not force all the people to format this correctly, hence the parser
+> came into play.
+
+> Integrated with different payment systems, such as:
+> - cloudpayments
+> - alipay
+> - xsolla
+> - wechat
+> - stripe
+> Among all of them (at the time of implementation) the worst documented was
+> Alipay, and the best documented and the easiest to embed was Stripe. Do not find
+> this very interesting, but Stripe's approach of launching local client and
+> avoiding all unnecessary things, such as exposing your localhost to the internet
+> and providing payment system with your host name for the sake of testing and
+> debugging is awesome and the way to go.
+
+> Prefer to set up local development with Docker so as to avoid conflicts and
+> simplify onboarding process.
+
+> It can be awkward to configure Redis clusters as well as Rabbit MQ clusters
+> within Kubernetes or Nomad. They need to know node / host name of their
+> siblings, which may not be the case of service discovery
+
+> The simplest and fastest to start for load testing is AB or siege. For longer
+> scenarios I usually prefer K6, because it is convenient, and there are
+> convertors from HAR to JS. Tsung, though is powerful, is not advisable:
+> wrapping escaped json (your data) into erlang (sometimes you need embedded
+> erlang for the scenario) withing xml (which describes your scenario) is
+> completely unreadable.
+
 
 ## Current interests
 
@@ -84,7 +114,6 @@ documentation and implementation was Stripe. -->
 <span class="interest interest-4">Data visuzlization</span>
 <span class="interest interest-5">Computer graphics</span>
 </p>
-
 
 I love creating parsers, doing 3d modelling, and creating data visualizations.
 
