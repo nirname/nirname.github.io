@@ -64,6 +64,7 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 <figure class="tile"><img class="skill swagger">            <figcaption>Swagger          </figcaption></figure>
 <figure class="tile"><img class="skill k6">                 <figcaption>K6               </figcaption></figure>
 <figure class="tile"><img class="skill apache">             <figcaption>Apache Benchmark </figcaption></figure>
+<figure class="tile"><img class="skill grafana">            <figcaption>Grafana          </figcaption></figure>
 <figure class="tile"><img class="skill mermaid">            <figcaption>Mermaid JS       </figcaption></figure>
 <figure class="tile"><img class="skill markdown animated">  <figcaption>Markdown         </figcaption></figure>
 </div>
@@ -85,27 +86,45 @@ I also have some teaching experience, so you may ask me for **mentoring**.
 > - stripe
 > 
 > Among all of them (at the time of implementation) the worst documented was
-> Alipay, and the best documented and the easiest to embed was Stripe. Do not find
-> this very interesting, but Stripe's approach of launching local client and
-> avoiding all unnecessary things, such as exposing your localhost to the internet
-> and providing payment system with your host name for the sake of testing and
-> debugging is awesome and the way to go.
+> **Alipay**, and the best documented and the easiest to embed was **Stripe**. I
+> do not find integrating with payment systems particularly interesting, but
+> **Stripe**'s approach of launching local client and avoiding all unnecessary
+> things, such as exposing your localhost to the internet and providing payment
+> system with your host name for the sake of testing and debugging is awesome
+> and the way to go.
 
-> Prefer to set up local development with Docker. It helps to avoid versions
+> Prefer to set up local development with **Docker**. It helps to avoid versions
 > conflicts durings installation, simplify onboarding process and your software
 > becomes more or less portable.
 
-> It can be awkward to configure Redis clusters as well as Rabbit MQ clusters
-> within Kubernetes or Nomad. They need to know node / host name of their
-> siblings, which may not be the case of service discovery.
+> It can be awkward to configure **Redis** clusters as well as **Rabbit MQ**
+> clusters within Kubernetes or **Nomad**. They need to know node / host name of
+> their siblings beforehand, which can be tricky when you are using service
+> discovery. It is possible, but always takes some tricks.
 
-> The simplest and fastest to start for load testing is AB or siege. For longer
-> scenarios I usually prefer K6, because it is convenient, and there are
-> convertors from HAR to JS. Tsung, though is powerful, is not advisable:
-> wrapping escaped JSON (your data) into Erlang (sometimes you need embedded
-> erlang for the scenario) withing XML (which describes your scenario) is
-> completely unreadable.
+> Obvious but sometimes you can forget about it: using **Envoy** as a proxy for
+> **Redis** will limit your available commands set, not everything is supported.
 
+> The simplest and fastest way to start load testing is **ab** or **siege**. For
+> longer scenarios I usually prefer **k6**, because it is convenient, and there
+> are convertors from HAR to JS. **tsung**, though is powerful, is not
+> advisable: wrapping escaped JSON (your data) into Erlang (sometimes you need
+> embedded erlang for the scenario) withing XML (which describes your scenario)
+> is completely unreadable. Setup **Grafana** or any other metrics beforehand,
+> the more tools for analysis the better, especially when conducting load
+> testing.
+
+> Cross-domain cookies has pros and cons. They can cause troubles during
+> switching between domain and cross-domain version, but sometimes help to
+> reduce the amount of work needed by a developer to authorize a user.
+
+> Proxy-based authentication can tremendously help with authentication system
+> for inner services. The idea is that a proxy server makes a sub-request and
+> asks if you are authorized or not, then your request goes to sub-system. It
+> can also enrish your request headers with user information if it is needed by
+> your service. Hence it eliminates the need of implementing complex
+> authentication inside separate backend service almost completely. Such a
+> module is present in **NGinx** as well as in **Traefik**
 
 ## Current interests
 

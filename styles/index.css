@@ -179,6 +179,7 @@ img.skill.ansible        { mask: url("../icons/ansible.svg") }       img.skill.a
 img.skill.d3dotjs        { mask: url("../icons/d3dotjs.svg") }       img.skill.d3dotjs:hover        { background-color: #F9A03C;}
 img.skill.swagger        { mask: url("../icons/swagger.svg") }       img.skill.swagger:hover        { background-color: #85EA2D;}
 img.skill.k6             { mask: url("../icons/k6.svg") }            img.skill.k6:hover             { background-color: #7D64FF;}
+img.skill.grafana        { mask: url("../icons/grafana.svg") }       img.skill.grafana:hover        { background-color: #F46800;}
 img.skill.apache         { mask: url("../icons/apache.svg") }        img.skill.apache:hover         { background-color: #D22128;}
 img.skill.mermaid        { mask: url("../icons/mermaid.svg") }       img.skill.mermaid:hover        { background-color: #FF3670;}
 img.skill.markdown       { mask: url("../icons/markdown.svg") }      
