@@ -91,15 +91,24 @@ address .telegram:before { mask: url("../icons/telegram.svg"); } .telegram:hover
 address .discord:before  { mask: url("../icons/discord.svg"); }  .discord:hover:before { background-color: #5865f2 ;}
 
 img.me {
-  float: right;
-  margin: 0 20px 20px 0;
-  border-radius: 50%;
+  float: left;
+  margin: 0 20px 20px 0px;
+  /* border-radius: 50%; */
+  height: 220px;
+  width: 220px;
   overflow: hidden;
 }
 
-.about {
+/* .about {
   clear: both;
   float: none;
+} */
+
+.about:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
 }
 
 .interest {
