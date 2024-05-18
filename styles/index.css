@@ -1,10 +1,11 @@
 :root {
-  --primary-color: #001c31;
-  --secondary-color: #fffef1;
+  --color-1: #001c31;
+  --color-2: #fffef1;
+  --color-3: #6a737d;
 }
 
 html {
-  color: var(--primary-color);
+  color: var(--color-1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,7 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
   text-align: center;
   /* gap: 0px; */
 }
@@ -60,7 +62,7 @@ figcaption {
 a {
   text-decoration: underline dashed;
   text-underline-position: under; 
-  color: var(--primary-color) !important;
+  color: var(--color-1) !important;
 }
 
 .line {
@@ -82,7 +84,7 @@ address a:before {
 }
 
 address a:before {
-  background-color: var(--primary-color);
+  background-color: var(--color-1);
 }
 
 address .gmail:before    { mask: url("../icons/gmail.svg"); }    .gmail:hover:before { background-color: #ea4335; }
@@ -121,14 +123,14 @@ img.me {
   font-family: sans-serif;
 }
 
-.interest-1 { background: var(--primary-color); color: var(--secondary-color); }
-.interest-2 { background: #8300c4; color: var(--secondary-color); }
-.interest-3 { background: #fcbf49; color: var(--primary-color); }
-.interest-4 { background: #1cb08f; color: var(--secondary-color); }
-.interest-5 { background: #d62828; color: var(--secondary-color); } 
+.interest-1 { background: var(--color-1); color: var(--color-2); }
+.interest-2 { background: #8300c4; color: var(--color-2); }
+.interest-3 { background: #fcbf49; color: var(--color-1); }
+.interest-4 { background: #1cb08f; color: var(--color-2); }
+.interest-5 { background: #d62828; color: var(--color-2); } 
 
 img.skill {
-  background-color: var(--primary-color);
+  background-color: var(--color-1);
   transition: background-color 0.5s ease;
   /* animation: rotateY 1s infinite ease; */
   mask-position: center !important;
@@ -192,19 +194,19 @@ blockquote{
   line-height: 1.6;
   margin: 1em auto !important;
   padding: 1em 30px 1em 60px !important;
-  border-left: 1px solid #6a737d !important;
+  border-left: 1px solid var(--color-3) !important;
   /* border-left: 0 !important; */
   position: relative !important;
   /* background : #f9f9f9 !important; */
 }
 
-blockquote:nth-child(odd) {
+/* blockquote:nth-child(odd) {
   margin-left: 10px !important;
 }
 
 blockquote:nth-child(3n) {
   margin-left: 20px !important;
-}
+} */
 
 blockquote>:last-child {
   margin-bottom: 0;
@@ -213,7 +215,7 @@ blockquote>:last-child {
 blockquote:before{
   font-family:Arial;
   content: "\201C";
-  color: #6a737d;
+  color: var(--color-3);
   font-size:4em;
   position: absolute;
   left: 10px;
