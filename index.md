@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Nikolay Rozhkov
 ---
+
+# Nikolay Rozhkov
 
 <link rel="stylesheet" href="./styles/index.css">
 <script src="./scripts/index.js"></script>
