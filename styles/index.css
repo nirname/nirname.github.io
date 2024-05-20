@@ -1,7 +1,7 @@
 :root {
   --color-1: #001c31;
-  --color-2: #fffef1;
-  --color-3: #6a737d;
+  --color-2: #6a737d;
+  --color-3: #fffef1;
 }
 
 html {
@@ -69,13 +69,13 @@ figcaption {
 }
 
 a {
-  text-decoration: underline dashed;
+  text-decoration: underline dashed 1px;
   text-underline-position: under; 
   color: var(--color-1);
 }
 
 a:hover {
-  text-decoration: underline solid;
+  text-decoration: underline solid 1px;
 }
 
 .line {
@@ -140,11 +140,11 @@ img.me {
   font-family: sans-serif;
 }
 
-.interest-1 { background: var(--color-1); color: var(--color-2); }
-.interest-2 { background: #8300c4; color: var(--color-2); }
+.interest-1 { background: var(--color-1); color: var(--color-3); }
+.interest-2 { background: #8300c4; color: var(--color-3); }
 .interest-3 { background: #fcbf49; color: var(--color-1); }
-.interest-4 { background: #1cb08f; color: var(--color-2); }
-.interest-5 { background: #d62828; color: var(--color-2); } 
+.interest-4 { background: #1cb08f; color: var(--color-3); }
+.interest-5 { background: #d62828; color: var(--color-3); } 
 
 img.skill {
   background-color: var(--color-1);
@@ -209,8 +209,8 @@ blockquote {
   font-size: 1.2em;
   line-height: 1.6;
   margin: 1em auto;
-  padding: 0 0 0 60px;
-  border-left: 1px solid var(--color-3);
+  padding: 0 0 0 40px;
+  border-left: 1px solid var(--color-2);
   border-left: 0;
   position: relative;
   /* background : #f9f9f9; */
@@ -227,7 +227,7 @@ blockquote>:last-child {
 blockquote:before{
   font-family:Arial;
   content: "\201C";
-  color: var(--color-3);
+  color: var(--color-2);
   font-size: 4em;
   position: absolute;
   left: 0px;

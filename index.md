@@ -10,9 +10,9 @@ title: Nikolay Rozhkov
 
 <img class="me" src="./images/me.jpg">
 
-<h1 class="">Nikolay Rozhkov</h1>
+<h1>Nikolay Rozhkov</h1>
 
-<p class="" markdown="1">
+<p markdown="1">
 
 ![Hello!](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)
 </p>
