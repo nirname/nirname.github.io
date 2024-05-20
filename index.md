@@ -3,8 +3,6 @@ layout: default
 title: Nikolay Rozhkov
 ---
 
-# Nikolay Rozhkov
-
 <link rel="stylesheet" href="./styles/index.css">
 <script src="./scripts/index.js"></script>
 
@@ -12,7 +10,10 @@ title: Nikolay Rozhkov
 
 <img class="me" src="./images/me.jpg">
 
+# Nikolay Rozhkov
+
 ![Hello!](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=80&color=00111d&multiline=true&width=500&height=75&lines=Hello!+Nice+to+meet+you.;I+have+been+programming+for+quite+a+time.;Feel+free+to+contact+me.)
+
 
 I am a web developer with diverse experience.
 
