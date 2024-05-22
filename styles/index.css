@@ -109,6 +109,7 @@ address .calendly:before { mask: url("../icons/calendly.svg"); } .calendly:hover
 address .linkedin:before { mask: url("../icons/linkedin.svg"); } .linkedin:hover:before { background-color: #0a66c2 ;}
 address .telegram:before { mask: url("../icons/telegram.svg"); } .telegram:hover:before { background-color: #26a5e4;}
 address .discord:before  { mask: url("../icons/discord.svg"); }  .discord:hover:before { background-color: #5865f2 ;}
+address .stackoverflow:before { mask: url("../icons/stackoverflow.svg"); } .stackoverflow:hover:before { background-color: #F58025 ;}
 
 img.me {
   float: left;
