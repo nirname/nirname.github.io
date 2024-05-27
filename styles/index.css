@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   margin-top: 2em;
   text-transform: uppercase;
   font-weight: normal;
@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin-top: unset;
   margin-bottom: unset;
+  font-weight: normal;
 }
 
 .flex {
@@ -42,6 +43,12 @@ h1 {
 .flex .tile img {
   height: 50px;
   width: 50px;
+}
+
+.flex .desc {
+  width: 100%;
+  height: fit-content;
+  background: var(--color-2);
 }
 
 .grid {
@@ -150,7 +157,7 @@ img.me {
 .interest-4 { background: #1cb08f; color: var(--color-3); }
 .interest-5 { background: #d62828; color: var(--color-3); } 
 
-img.skill {
+.skill img {
   background-color: var(--color-1);
   transition: background-color 0.5s ease;
   /* animation: rotateY 1s infinite ease; */
@@ -172,41 +179,42 @@ img.skill {
   to { transform: rotateY(360deg); }
 }
 
-img.skill.ruby           { mask: url("../icons/ruby.svg") }          img.skill.ruby:hover           { background-color: #cc342d;}
-img.skill.javascript     { mask: url("../icons/javascript.svg") }    img.skill.javascript:hover     { background-color: #f7df1e;}
-img.skill.rubyonrails    { mask: url("../icons/rubyonrails.svg") }   img.skill.rubyonrails:hover    { background-color: #d30001;}
-img.skill.rspec          { mask: url("../icons/rspec.svg") }         img.skill.rspec:hover          { background-color: #7fd2ed;}
-img.skill.react          { mask: url("../icons/react.svg") }         img.skill.react:hover          { background-color: #61dafb;}
-img.skill.git            { mask: url("../icons/git.svg") }           img.skill.git:hover            { background-color: #f05032;}
-img.skill.docker         { mask: url("../icons/docker.svg") }        img.skill.docker:hover         { background-color: #8300c4;}
-img.skill.postgresql     { mask: url("../icons/postgresql.svg") }    img.skill.postgresql:hover     { background-color: #2496ed;}
-img.skill.gnubash        { mask: url("../icons/gnubash.svg") }       img.skill.gnubash:hover        { background-color: #4EAA25;}
-img.skill.redis          { mask: url("../icons/redis.svg") }         img.skill.redis:hover          { background-color: #a32422;}
-img.skill.nginx          { mask: url("../icons/nginx.svg") }         img.skill.nginx:hover          { background-color: #009639;}
-img.skill.linux          { mask: url("../icons/linux.svg") }         img.skill.linux:hover          { background-color: #fcc624;}
-img.skill.github         { mask: url("../icons/github.svg") }        
-img.skill.githubactions  { mask: url("../icons/githubactions.svg") } img.skill.githubactions:hover  { background-color: #2088ff;}
-img.skill.circleci       { mask: url("../icons/circleci.svg") }      
-img.skill.rabbitmq       { mask: url("../icons/rabbitmq.svg") }      img.skill.rabbitmq:hover       { background-color: #FF6600;}
-img.skill.apachekafka    { mask: url("../icons/apachekafka.svg") }   
-img.skill.go             { mask: url("../icons/go.svg") }            img.skill.go:hover             { background-color: #00ADD8;}
-img.skill.c              { mask: url("../icons/c.svg") }             img.skill.c:hover              { background-color: #8300c4;}
-img.skill.cplusplus      { mask: url("../icons/cplusplus.svg") }     img.skill.cplusplus:hover      { background-color: #A8B9CC;}
-img.skill.csharp         { mask: url("../icons/csharp.svg") }        img.skill.csharp:hover         { background-color: #512BD4;}
-img.skill.typescript     { mask: url("../icons/typescript.svg") }    img.skill.typescript:hover     { background-color: #3178C6;}
-img.skill.traefikproxy   { mask: url("../icons/traefikproxy.svg") }  img.skill.traefikproxy:hover   { background-color: #24A1C1;}
-img.skill.nomad          { mask: url("../icons/nomad.svg") }         img.skill.nomad:hover          { background-color: #00CA8E;}
-img.skill.terraform      { mask: url("../icons/terraform.svg") }     img.skill.terraform:hover      { background-color: #7B42BC;}
-img.skill.ansible        { mask: url("../icons/ansible.svg") }       img.skill.ansible:hover        { background-color: #EE0000;}
-img.skill.d3dotjs        { mask: url("../icons/d3dotjs.svg") }       img.skill.d3dotjs:hover        { background-color: #F9A03C;}
-img.skill.swagger        { mask: url("../icons/swagger.svg") }       img.skill.swagger:hover        { background-color: #85EA2D;}
-img.skill.k6             { mask: url("../icons/k6.svg") }            img.skill.k6:hover             { background-color: #7D64FF;}
-img.skill.grafana        { mask: url("../icons/grafana.svg") }       img.skill.grafana:hover        { background-color: #F46800;}
-img.skill.apache         { mask: url("../icons/apache.svg") }        img.skill.apache:hover         { background-color: #D22128;}
-img.skill.mermaid        { mask: url("../icons/mermaid.svg") }       img.skill.mermaid:hover        { background-color: #FF3670;}
-img.skill.markdown       { mask: url("../icons/markdown.svg") }      
+.skill img.ruby           { mask: url("../icons/ruby.svg") }          .skill:hover img.ruby           { background-color: #cc342d;}
+.skill img.javascript     { mask: url("../icons/javascript.svg") }    .skill:hover img.javascript     { background-color: #f7df1e;}
+.skill img.rubyonrails    { mask: url("../icons/rubyonrails.svg") }   .skill:hover img.rubyonrails    { background-color: #d30001;}
+.skill img.rspec          { mask: url("../icons/rspec.svg") }         .skill:hover img.rspec          { background-color: #7fd2ed;}
+.skill img.react          { mask: url("../icons/react.svg") }         .skill:hover img.react          { background-color: #61dafb;}
+.skill img.git            { mask: url("../icons/git.svg") }           .skill:hover img.git            { background-color: #f05032;}
+.skill img.docker         { mask: url("../icons/docker.svg") }        .skill:hover img.docker         { background-color: #8300c4;}
+.skill img.postgresql     { mask: url("../icons/postgresql.svg") }    .skill:hover img.postgresql     { background-color: #2496ed;}
+.skill img.gnubash        { mask: url("../icons/gnubash.svg") }       .skill:hover img.gnubash        { background-color: #4EAA25;}
+.skill img.redis          { mask: url("../icons/redis.svg") }         .skill:hover img.redis          { background-color: #a32422;}
+.skill img.nginx          { mask: url("../icons/nginx.svg") }         .skill:hover img.nginx          { background-color: #009639;}
+.skill img.linux          { mask: url("../icons/linux.svg") }         .skill:hover img.linux          { background-color: #fcc624;}
+.skill img.github         { mask: url("../icons/github.svg") }        .skill:hover img.github         {                             }
+.skill img.githubactions  { mask: url("../icons/githubactions.svg") } .skill:hover img.githubactions  { background-color: #2088ff;}
+.skill img.circleci       { mask: url("../icons/circleci.svg") }      .skill:hover img.circleci       {                             }
+.skill img.rabbitmq       { mask: url("../icons/rabbitmq.svg") }      .skill:hover img.rabbitmq       { background-color: #FF6600;}
+.skill img.apachekafka    { mask: url("../icons/apachekafka.svg") }   .skill:hover img.apachekafka    {                             }
+.skill img.go             { mask: url("../icons/go.svg") }            .skill:hover img.go             { background-color: #00ADD8;}
+.skill img.c              { mask: url("../icons/c.svg") }             .skill:hover img.c              { background-color: #8300c4;}
+.skill img.cplusplus      { mask: url("../icons/cplusplus.svg") }     .skill:hover img.cplusplus      { background-color: #A8B9CC;}
+.skill img.csharp         { mask: url("../icons/csharp.svg") }        .skill:hover img.csharp         { background-color: #512BD4;}
+.skill img.typescript     { mask: url("../icons/typescript.svg") }    .skill:hover img.typescript     { background-color: #3178C6;}
+.skill img.traefikproxy   { mask: url("../icons/traefikproxy.svg") }  .skill:hover img.traefikproxy   { background-color: #24A1C1;}
+.skill img.nomad          { mask: url("../icons/nomad.svg") }         .skill:hover img.nomad          { background-color: #00CA8E;}
+.skill img.terraform      { mask: url("../icons/terraform.svg") }     .skill:hover img.terraform      { background-color: #7B42BC;}
+.skill img.ansible        { mask: url("../icons/ansible.svg") }       .skill:hover img.ansible        { background-color: #EE0000;}
+.skill img.d3dotjs        { mask: url("../icons/d3dotjs.svg") }       .skill:hover img.d3dotjs        { background-color: #F9A03C;}
+.skill img.swagger        { mask: url("../icons/swagger.svg") }       .skill:hover img.swagger        { background-color: #85EA2D;}
+.skill img.k6             { mask: url("../icons/k6.svg") }            .skill:hover img.k6             { background-color: #7D64FF;}
+.skill img.grafana        { mask: url("../icons/grafana.svg") }       .skill:hover img.grafana        { background-color: #F46800;}
+.skill img.apache         { mask: url("../icons/apache.svg") }        .skill:hover img.apache         { background-color: #D22128;}
+.skill img.mermaid        { mask: url("../icons/mermaid.svg") }       .skill:hover img.mermaid        { background-color: #FF3670;}
+.skill img.markdown       { mask: url("../icons/markdown.svg") }      .skill:hover img.markdown       {                             }
 
-img.skill.animated.progress { animation: rotateY 1s 1 linear; }
+.skill img.animated.progress { animation: rotateY 1s 1 linear; }
+/* .skill:hover figcaption { text-decoration: underline; } */
 
 /* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
 blockquote {

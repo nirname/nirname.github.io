@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var skills = document.querySelectorAll(".skill.animated");
+  var skills = document.querySelectorAll(".skill .animated");
 
   function animationEndHandler() {
     this.classList.remove("progress");

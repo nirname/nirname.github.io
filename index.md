@@ -42,39 +42,39 @@ Can keep track of outsource development.
 ## Skills
 
 <div class="flex">
-<figure class="tile"><img class="skill ruby">               <figcaption>Ruby             </figcaption></figure>
-<figure class="tile"><img class="skill javascript">         <figcaption>JavaScript       </figcaption></figure>
-<figure class="tile"><img class="skill rubyonrails">        <figcaption>Ruby on Rails    </figcaption></figure>
-<figure class="tile"><img class="skill rspec">              <figcaption>RSpec            </figcaption></figure>
-<figure class="tile"><img class="skill react">              <figcaption>React            </figcaption></figure>
-<figure class="tile"><img class="skill git">                <figcaption>Git              </figcaption></figure>
-<figure class="tile"><img class="skill docker">             <figcaption>Docker           </figcaption></figure>
-<figure class="tile"><img class="skill postgresql">         <figcaption>Postgres         </figcaption></figure>
-<figure class="tile"><img class="skill gnubash">            <figcaption>BashScript       </figcaption></figure>
-<figure class="tile"><img class="skill redis">              <figcaption>Redis            </figcaption></figure>
-<figure class="tile"><img class="skill nginx">              <figcaption>NGinx            </figcaption></figure>
-<figure class="tile"><img class="skill linux">              <figcaption>Linux            </figcaption></figure>
-<figure class="tile"><img class="skill github animated">    <figcaption>Github           </figcaption></figure>
-<figure class="tile"><img class="skill githubactions">      <figcaption>Github Actions   </figcaption></figure>
-<figure class="tile"><img class="skill circleci animated">  <figcaption>Circle CI        </figcaption></figure>
-<figure class="tile"><img class="skill rabbitmq">           <figcaption>Rabbit MQ        </figcaption></figure>
-<figure class="tile"><img class="skill apachekafka animated"><figcaption>Apache Kafka     </figcaption></figure>
-<figure class="tile"><img class="skill go">                 <figcaption>Go               </figcaption></figure>
-<figure class="tile"><img class="skill c">                  <figcaption>C                </figcaption></figure>
-<figure class="tile"><img class="skill cplusplus">          <figcaption>C++              </figcaption></figure>
-<figure class="tile"><img class="skill csharp">             <figcaption>C#               </figcaption></figure>
-<figure class="tile"><img class="skill typescript">         <figcaption>Typescript       </figcaption></figure>
-<figure class="tile"><img class="skill traefikproxy">       <figcaption>Traefik          </figcaption></figure>
-<figure class="tile"><img class="skill nomad">              <figcaption>Nomad            </figcaption></figure>
-<figure class="tile"><img class="skill terraform">          <figcaption>Terraform        </figcaption></figure>
-<figure class="tile"><img class="skill ansible">            <figcaption>Ansible          </figcaption></figure>
-<figure class="tile"><img class="skill d3dotjs">            <figcaption>D3               </figcaption></figure>
-<figure class="tile"><img class="skill swagger">            <figcaption>Swagger          </figcaption></figure>
-<figure class="tile"><img class="skill k6">                 <figcaption>K6               </figcaption></figure>
-<figure class="tile"><img class="skill apache">             <figcaption>Apache Benchmark </figcaption></figure>
-<figure class="tile"><img class="skill grafana">            <figcaption>Grafana          </figcaption></figure>
-<figure class="tile"><img class="skill mermaid">            <figcaption>Mermaid JS       </figcaption></figure>
-<figure class="tile"><img class="skill markdown animated">  <figcaption>Markdown         </figcaption></figure>
+<figure class="tile skill"><img class="ruby">               <figcaption>Ruby             </figcaption></figure>
+<figure class="tile skill"><img class="javascript">         <figcaption>JavaScript       </figcaption></figure>
+<figure class="tile skill"><img class="rubyonrails">        <figcaption>Ruby on Rails    </figcaption></figure>
+<figure class="tile skill"><img class="rspec">              <figcaption>RSpec            </figcaption></figure>
+<figure class="tile skill"><img class="react">              <figcaption>React            </figcaption></figure>
+<figure class="tile skill"><img class="git">                <figcaption>Git              </figcaption></figure>
+<figure class="tile skill"><img class="docker">             <figcaption>Docker           </figcaption></figure>
+<figure class="tile skill"><img class="postgresql">         <figcaption>Postgres         </figcaption></figure>
+<figure class="tile skill"><img class="gnubash">            <figcaption>BashScript       </figcaption></figure>
+<figure class="tile skill"><img class="redis">              <figcaption>Redis            </figcaption></figure>
+<figure class="tile skill"><img class="nginx">              <figcaption>NGinx            </figcaption></figure>
+<figure class="tile skill"><img class="linux">              <figcaption>Linux            </figcaption></figure>
+<figure class="tile skill"><img class="github animated">    <figcaption>Github           </figcaption></figure>
+<figure class="tile skill"><img class="githubactions">      <figcaption>Github Actions   </figcaption></figure>
+<figure class="tile skill"><img class="circleci animated">  <figcaption>Circle CI        </figcaption></figure>
+<figure class="tile skill"><img class="rabbitmq">           <figcaption>Rabbit MQ        </figcaption></figure>
+<figure class="tile skill"><img class="apachekafka animated"><figcaption>Apache Kafka     </figcaption></figure>
+<figure class="tile skill"><img class="go">                 <figcaption>Go               </figcaption></figure>
+<figure class="tile skill"><img class="c">                  <figcaption>C                </figcaption></figure>
+<figure class="tile skill"><img class="cplusplus">          <figcaption>C++              </figcaption></figure>
+<figure class="tile skill"><img class="csharp">             <figcaption>C#               </figcaption></figure>
+<figure class="tile skill"><img class="typescript">         <figcaption>Typescript       </figcaption></figure>
+<figure class="tile skill"><img class="traefikproxy">       <figcaption>Traefik          </figcaption></figure>
+<figure class="tile skill"><img class="nomad">              <figcaption>Nomad            </figcaption></figure>
+<figure class="tile skill"><img class="terraform">          <figcaption>Terraform        </figcaption></figure>
+<figure class="tile skill"><img class="ansible">            <figcaption>Ansible          </figcaption></figure>
+<figure class="tile skill"><img class="d3dotjs">            <figcaption>D3               </figcaption></figure>
+<figure class="tile skill"><img class="swagger">            <figcaption>Swagger          </figcaption></figure>
+<figure class="tile skill"><img class="k6">                 <figcaption>K6               </figcaption></figure>
+<figure class="tile skill"><img class="apache">             <figcaption>Apache Benchmark </figcaption></figure>
+<figure class="tile skill"><img class="grafana">            <figcaption>Grafana          </figcaption></figure>
+<figure class="tile skill"><img class="mermaid">            <figcaption>Mermaid JS       </figcaption></figure>
+<figure class="tile skill"><img class="markdown animated">  <figcaption>Markdown         </figcaption></figure>
 </div>
 
 ## Some experience excerpts
